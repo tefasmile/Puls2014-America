@@ -89,6 +89,12 @@ header #logo img
 {
 	width: 80px;
 }
+header #logo img:hover
+{
+	-webkit-transform: rotate(90deg);
+	transition:1s;
+	border: 2px solid red;
+}
 nav
 {
 	background: #878787;
